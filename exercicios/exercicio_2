@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main()
+{       
+    
+    
+        // Escreva um programa que o usuario informe a base e a altura de um retangulo. O programa deve calcular a área do retangulo
+    
+        
+        int base,altura,result;
+        
+        printf("Informe a base do retângulo: \n");
+        scanf(" %d",&base);
+        
+        printf("Informe a altura do retângulo: \n");
+        scanf(" %d",&altura);
+        
+        result = base*altura;
+        
+        printf("O resultado é: %d",result);
+    
+        
+        return 0;
+    
+}
