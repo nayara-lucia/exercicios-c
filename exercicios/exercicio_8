@@ -1,0 +1,35 @@
+#include <stdio.h>
+
+int main()
+{
+
+  /*As maçãs custam R$ 1,30 cada se forem compradas menos de uma dúzia, e R$ 1,00 se forem compradas pelo menos 12. 
+  Escreva um programa que leia o número de maçãs compradas, calcule e escreva o custo total da compra. 
+*/
+
+int qtde;
+float valor_acima,valor_abaixo, valor_total;
+
+valor_abaixo=1.3;
+valor_acima=1.0;
+
+printf("Digite a quantidade de maças a ser comprada: ");
+scanf("%d",&qtde);
+
+    if(qtde<12){
+    
+    valor_total=valor_abaixo * qtde;
+    
+    printf("\n**Compra Inferior**\nA quantidade de maças comprada é: %d Cada maça custa: %4.2f O valor total da compra é: %7.2f",qtde,valor_abaixo,valor_total);
+    }
+
+    else {
+   
+    valor_total=valor_acima * qtde;
+    
+  printf("\n**Compra Superior**\nA quantidade de maças comprada é: %d Cada maça custa: %4.2f O valor total da compra é: %7.2f",qtde,valor_acima,valor_total);
+
+}
+         return 0;
+        
+    }
