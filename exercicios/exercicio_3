@@ -1,0 +1,31 @@
+#include <stdio.h>
+
+// Calculadora básica com soma, subtração, multiplicação e divisão
+
+int main()
+{       
+    
+    
+        int num1, num2, res;
+
+  printf ("Digite o primeiro nC:mero \n");
+  scanf ("%d", &num1);
+
+
+  printf ("Digite o segundo nC:mero \n");
+  scanf ("%d", &num2);
+
+  printf ("CALCULANDO . . . \n");
+  res = num1 + num2;
+  printf ("%d + %d = %d \n", num1, num2, res);
+
+  res = num1 - num2;
+  printf ("%d - %d = %d \n", num1, num2, res);
+
+  res = num1 * num2;
+  printf ("%d x %d = %d \n", num1, num2, res);
+
+  res = num1 / num2;
+  printf ("%d ÷ %d = %d \n", num1, num2, res);
+    
+}
