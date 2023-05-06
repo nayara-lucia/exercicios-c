@@ -1,3 +1,5 @@
+// Calculadora básica
+
 #include <stdio.h>
 
 int main()
