@@ -1,0 +1,24 @@
+/* Operador informa quantas vezes quer que repita os avisos */
+
+#include <stdio.h>
+
+int main()
+{
+    int cont = 1;
+    int repeticao;
+    
+    printf("Operador informe quantas vezes o aviso irá se repetir \n");
+    scanf("%d",&repeticao);
+
+    while (cont <= repeticao){ 
+        
+	printf("Aviso nº: %d \n",cont);
+	printf("Não ultrapasse a faixa amarela \n");
+	printf("Cuidado com o vão entre o trem e a plataforma \n");
+	printf("No embarque aguarde o desembarque dos passageiros \n");
+	
+
+	cont = cont + 1;
+} 
+
+}

@@ -1,0 +1,30 @@
+/* Faça um algoritmo que leia as 3 notas de um aluno e calcule a
+média final deste aluno. Considerar que a média é ponderada e que o peso
+das notas é: 2, 3 e 5, respectivamente.
+ */
+
+#include <stdio.h>
+
+int main()
+{
+     float nota1, nota2, nota3, mediap,peso;
+    
+    peso=10;
+    
+    printf("Digite a 1ª Nota: ");
+    scanf("%f",&nota1);
+    
+    printf("Digite a 2ª Nota: ");
+    scanf("%f",&nota2);
+    
+    printf("Digite a 3ª Nota: ");
+    scanf("%f",&nota3);
+    
+    mediap=((nota1*2)+(nota2*3)+(nota3*5))/peso;
+    
+    printf("\nNota 1: %.1f ",nota1);
+    printf("\nNota 2: %.1f ",nota2);
+    printf("\nNota 3: %.1f ",nota3);
+    printf("\nMédia Ponderada: %.1f ",mediap);
+
+}

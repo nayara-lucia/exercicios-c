@@ -1,0 +1,33 @@
+/* Identificador de triângulos */
+
+#include <stdio.h>
+
+int main()
+{       
+    
+    int a,b,c;
+    
+    printf("Digite o valor de A: \n");
+    scanf("%d",&a);
+    
+    printf("Digite o valor de B: \n");
+    scanf("%d",&b);
+    
+    printf("Digite o valor de B: \n");
+    scanf("%d",&c);
+    
+    if ((a==b) && (b==c))
+    {
+      printf ("\nTodos os lados são iguais, o triângulo é equilátero!\n");
+    }
+    
+    else{
+    if((a==b) || (b==c) || (a==c))
+    {
+      printf ("\nO triângulo possui 2 lados iguais, portanto é isósceles!\n");
+    }
+    else{
+        printf("Os 3 lados são diferentes, portanto é escaleno!");
+    }
+    }
+    }

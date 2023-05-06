@@ -1,0 +1,24 @@
+/* Programa de tabuada */
+
+#include <stdio.h>
+
+int main()
+{
+    int cont = 1;
+    int tabuada;
+    int res;
+    
+    printf("Informe a tabuada desejada \n");
+    scanf("%d",&tabuada);
+    
+    while (cont <= 10){ 
+        
+    res = tabuada * cont;
+     
+	printf(" \n %d x %d =  %d \n",tabuada, cont,res);
+	
+	
+	cont = cont + 1;
+} 
+
+}
