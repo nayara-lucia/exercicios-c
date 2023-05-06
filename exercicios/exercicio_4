@@ -1,0 +1,29 @@
+#include <stdio.h>
+
+//  O usuário deve informar uma taxa de porcentagem e sálario. O programa deve calcular o valor da porcentagem informada, também o acréscimo e o desconto da porcentagem no valor total.
+
+int main()
+{       
+    
+    
+float porcentagem,salario,taxa,acrescimo,desconto;
+    
+    printf("Infome o valor da porcentagem: ");
+    scanf("%f",&porcentagem);
+    
+    printf("Informe o salário: ");
+    scanf("%f",&salario);
+    
+    taxa = porcentagem * salario / 100;
+    printf("Valor da taxa :%4.0f \n",taxa);
+    
+    acrescimo = taxa + salario;
+    printf("Com o acréscimo: %4.2f \n",acrescimo);
+    
+    
+   desconto =  salario - taxa;
+   printf("Com o desconto: %4.2f \n",desconto);
+
+  return 0;
+    
+}
