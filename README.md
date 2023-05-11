@@ -141,3 +141,10 @@ Calculo de média ponderada. Considerar o peso das notas é: 2, 3 e 5, respectiv
 
 ![image](https://user-images.githubusercontent.com/126920974/236646679-79a98425-7adf-4fe8-be6d-4393a57721ba.png)
 
+<a href="[https://github.com/nayara-lucia/logica-de-programacao-em-c/blob/main/exercicios/exercicio_021](https://github.com/nayara-lucia/logica-de-programacao-em-c/blob/main/exercicios/exercicio_022)">Exercício 22</a>
+
+Usuario digita um numero minimo e um maximo e o programa faz a conta crescente e descrescente 
+
+![image](https://github.com/nayara-lucia/logica-de-programacao-em-c/assets/126920974/7efadb09-6727-4017-b55b-f70c0bb0a10b)
+
+
