@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+
+int main()
+{
+    
+    int minimo, maximo;
+    int cont;
+    
+    printf("Informe o mínimo: ");
+    scanf("%d",&minimo);
+    
+    printf("Informe o máximo: ");
+    scanf("%d",&maximo);
+    
+    printf("\nORDEM CRESCENTE DE %d até %d \n",minimo, maximo);
+    for(cont = minimo; cont <= maximo; cont++){
+    printf("%d \n",cont);
+}
+
+    printf("\nORDEM DECRESCENTE DE %d até %d \n",minimo, maximo);
+    for(cont = maximo; cont >= minimo; cont--){
+    printf("%d \n",cont);
+}
+
+    return 0;
+}
