@@ -147,7 +147,7 @@ Usuario digita um numero minimo e um maximo e o programa faz a conta crescente e
 
 ![image](https://github.com/nayara-lucia/logica-de-programacao-em-c/assets/126920974/7efadb09-6727-4017-b55b-f70c0bb0a10b)
 
-<a href="https://github.com/nayara-lucia/logica-de-programacao-em-c/blob/main/exercicios/exercicio_023">Exercício 21</a>
+<a href="https://github.com/nayara-lucia/logica-de-programacao-em-c/blob/main/exercicios/exercicio_023">Exercício 23</a>
 
 Programa que da aviso do 1 ao 5 menos o 2 e 3.
 
