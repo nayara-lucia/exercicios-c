@@ -1,6 +1,6 @@
 
 
-<h1 align="center"> Exercicios para a pratica de lógica em C 🖥</h1>
+<h1 align="center"> Lógica em C 🖥</h1>
 
  <a href="https://github.com/nayara-lucia/logica-de-programacao-em-c/blob/main/exercicios/exercicio_1">Exercício 1</a>
  
